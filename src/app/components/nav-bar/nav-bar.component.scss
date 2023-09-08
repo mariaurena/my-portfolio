@@ -1,0 +1,13 @@
+.navbar-container{
+    padding: 2rem 3rem;   // usamos unidades relativas (rem)
+    .navbar-right{
+        .social{
+            a:hover{
+                transform: scale(1.2);
+            }
+            a.social{
+                color:rgb(85, 83, 83);
+            }
+        }
+    }
+}

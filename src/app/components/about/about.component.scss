@@ -1,0 +1,25 @@
+.about-container{
+    margin: 0 50px;
+    position: relative;
+    padding-top: 5%;
+
+    .qualification-container{
+        .faceImg{
+            border-radius: 50%;
+            width: 10%;
+            position: absolute;
+            // medidas relativas
+            top: -5vw;   
+            left: 7%;
+        }
+        h1{
+            text-shadow: 3px 3px 5px ;
+        }
+        .name{
+            font-size: 3rem;
+        }
+        .qualification{
+            font-size: 2rem;
+        }
+    }
+}
